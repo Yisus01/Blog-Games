@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #272626;
+}
+.logo{
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.nava{
+    margin-top: 4.5rem;
+}
+.nava a{
+    font-size: 23px;
+    margin-left: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.nava a:hover{
+    color: red;
+    transition: 0.24s;
+}
+.causelinicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 58.7rem;
+}
+.causelinicio .carousel-item {
+    width: 87.9rem;
+}
+.carousel-item img{
+    height: 55.5rem;
+}
+.izquierdainicio__1{
+    position: relative;
+    display: inline-block;
+}
+.izquierdainicio{
+    height: 5rem;
+}
+.izquierdainicio h2{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: red;
+}
+.izquierdainicio span{
+    color: black;
+}
+.izquierdainicio span:hover{
+    color: red;
+    transition: 0.25s;
+}
+.izquierdainicio img{
+    width: 31.0001rem;
+}
+.izquierdainicio__p{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
+    position: absolute;
+    color: white;
+    top: 13.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-right: 180px;
+    padding-left: 100px;
+}
+.izquierdainicio__p p{
+    text-align: center;
+    position: relative;
+    left: 3rem;
+    font-size: 16px;
+}
+.titulosindex{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+.titulosindex h2{
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+.titulosindex__noticias{
+    color: red;
+}
+.titulosindex__mas{
+    color: #282828;
+}
+.titulosindex__mas:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.noticiagrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 69%;
+    margin-left: 20rem;
+}
+.noticiagrid__card img{
+    width: 23rem;
+}
+.noticiagrid__card h3{
+    margin-top: 1.5rem;
+    width: 23rem;
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+.noticiagrid__card h3:hover{
+    color: red;
+    transition: 0.22s;
+    cursor: pointer;
+}
+.noticiagrid__card p{
+    width: 23rem;
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+    
+}
+.noticiagrid__card i{
+    font-size: 1.3rem;
+    color: red;
+}
+.noticiagrid__categoria{
+    display: flex;
+}
+.noticiagrid__categoria p{
+    margin-left: 1rem;
+    position: relative;
+    bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+    width: 10rem;
+}
+
+.casuselficha{
+   width: 70%;
+   margin-left: 20rem;
+   cursor: pointer;
+}
+.casuselficha .carousel-inner .carousel-item img{
+    height: 40rem;
+}
+.gridreview{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #F9F9F9;
+    width: 90rem;
+    margin-left: 20rem;
+    padding-bottom: 1.5rem;
+}
+.gridreview img{
+    width: 23.24rem;
+}
+.gridreview p{
+    width: 23.24rem;
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+}
+.gridreview h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.gridreview h3:hover{
+    color: red;
+    cursor: pointer;
+}
+.gridreview__vermas{
+    color: red;
+    margin-left: 19rem;
+    border-bottom: 3px solid red;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.gridreview__vermas:hover{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    transition: 0.2s;
+}
+.gridguia{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20rem;
+}
+.gridguia__primero, .gridguia__segundo{
+    display: flex;
+    justify-content: space-around;
+    width: 80rem;
+}
+.gridguia img{
+    width: 35rem;
+}
+/*.gridguia h3, p{
+    width: 35rem;
+    background-color: red;
+}*/
+.gridguia div{
+    margin-top: 5rem;
+}
+.gridguia h3{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+.gridguia p{
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+    text-align: center;
+}
+.gridguia a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 3px solid red;
+    font-weight: bold;
+    margin-left: 15rem;
+}
+.gridguia a:hover{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    transition: 0.23s;
+}
+.flexredes{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.flexredes i{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.flexredes p{
+    width: 6rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.flexredes p:hover{
+    color: red;
+    transition: 0.23s;
+    cursor: pointer;
+}
+.flexredes div{
+    margin-left: 7rem;
+}
+.flexredes__twitter{
+    color: #00ACEE;
+}
+.flexredes__instagram{
+    color: black;
+}
+.flexredes__facebook{
+    color: #3C5A99;
+}
+.flexredes__youtube{
+    color: #FF0000;
+}
+.flexredes__linkedin{
+    color: #1E73BE;
+}
+.flexredes__discord{
+    color: #7289DA;
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    background-color: black;
+    padding-top: 5rem;
+}
+.gridfooter div{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.gridfooter p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.3rem;
+    color: white;
+}
+.gridfooter h3{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+.gridfooter span{
+    color: white;
+}
+.gridfooter h3 span:hover{
+    color: red;
+    transition: 0.23s;
+}
+
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+.heronoticia{
+    background-image: url(http://cdn.shopify.com/s/files/1/0482/6126/7617/articles/M314_1024x1024.jpg?v=1633105598);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.9;
+    height: 35rem;
+}
+.heronoticia h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 50rem;
+    font-size: 5rem;
+}
+.gridnoticias{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.gridnoticias__card{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+}
+.gridnoticias__card:nth-child(4n+1){
+    background-color: #dbdbdb;
+}
+.gridnoticias__card:nth-child(4n+4){
+    background-color: #dbdbdb;
+}
+.gridnoticias img{
+    width: 20rem;
+}
+.gridnoticias__info--h3{
+    font-family: 'Titillium Web', sans-serif;
+    width: 17rem;
+    margin-left: 4rem;
+}
+.gridnoticias__info--p{
+    font-family: 'Poppins', sans-serif;
+    width: 20rem;
+    margin-left: 4rem;
+    text-align: left;
+    color: #777780;
+}
+.gridnoticias__info--a a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: red;
+    margin-left: 23rem;
+}
+.gridnoticias__info--a a:hover{
+    transition: 0.23s;
+    color: white;
+    padding: 10px;
+    background-color: #FF0000;
+}
+.gridnoticias__card{
+    margin-top: 1.5rem
+}
+.noticiaspaginacion{
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 5rem;
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+.heroanalisis{
+    background-image: url(https://www.comboinfinito.com.br/principal/wp-content/uploads/2019/04/Xbox-PlayStation-Nintendo-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 30rem;
+}
+.heroanalisis h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 50rem;
+    font-size: 5rem;
+}
+.gridanalisis{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90rem;
+    margin-left: 10rem;
+}
+.gridanalisis__card{
+    display: flex;
+    margin-top: 1rem;
+}
+.gridanalisis__card:nth-child(odd){
+    background-color: #dbdbdb;
+}
+.gridanalisis__card h3{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 3rem;
+}
+.gridanalisis__card p{
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+    margin-left: 3rem;
+    width: 25rem;
+}
+.gridanalisis__info a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: red;
+    margin-left: 22.1rem;
+}
+.gridanalisis__info a:hover{
+    transition: 0.23s;
+    color: white;
+    padding: 2.9px;
+    background-color: #FF0000;
+}
+.gridanalisis__card img{
+    width: 20rem;
+}
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+.heroguia{  
+    background-color: black;
+    height: 20rem;
+}
+.heroguia h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 50rem;
+    font-size: 5rem;
+}
+.gridguias{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 5rem;
+    margin-left: 25rem;
+    width: 75rem;
+    padding: 5rem;
+    box-shadow: 5px 1px 8px 1px #888888;
+
+}
+.gridguias__card{
+    width: 13.1rem;
+}
+
+.gridguias__card img{
+    width: 13rem;
+}
+.gridguias h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 8px;
+}
+.gridguias h3:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.23s;
+}
+.gridguias p{
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+}
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+.heroevento{  
+    background-image: url(https://images.reporteindigo.com/wp-content/uploads/2022/01/E3-2022.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 20rem;
+}
+.heroevento h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 50rem;
+    font-size: 5rem;
+}
+.eventoinfo{
+    font-family: 'Poppins', sans-serif;
+    color: #777780;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+}
+.eventogrid__a{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5rem;
+}
+.eventogrid__a a{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    background-color: rgb(209, 4, 4);
+    width: 30rem;
+    margin-left: 45rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    font-weight: bold;
+}
+.eventogrid__a a:hover{
+    background-color: #FF0000;
+    color: white;
+    transition: 0.23s;
+}
+.eventocarusel{
+    margin-top: 5rem;
+}
+.eventocarusel, .carousel-inner .carousel-item img{
+   width: 90rem;
+}
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+.heroservicio{  
+    background-image: url(https://s.zst.com.br/cms-assets/2022/05/monitor-4k-criterios.webp);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 25rem;
+}
+.heroservicio h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    font-size: 4rem;
+}
+.flexservicio{
+    display: flex;
+    width: 90rem;
+    margin-left: 28rem;
+    margin-top: 6rem;
+}
+.flexservicio__produccion{
+    width: 29rem;
+    text-align: justify;
+}
+.flexservicio__produccion{
+    width: 29rem;
+}
+.flexservicio__iconos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 38rem;
+    text-align: center;
+}
+.flexservicio__iconos p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.flexservicio img{
+    width: 6.5rem;
+}
+.que{
+    margin-top: 5rem;
+    width: 90rem;
+    margin-left: 15rem;
+
+}
+.que h3{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.que p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    font-size: 18px;
+    width: 68rem;
+    margin-left: 12rem;
+}
+.confiaennosotros h3{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 45rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.confia{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 60rem;
+    margin-left: 30rem;
+}
+.confia img{
+    margin-top: 2rem;
+}
+.quienes h3{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 50rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.quienes p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30rem;
+    width: 60rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
